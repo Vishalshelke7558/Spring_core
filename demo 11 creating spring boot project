@@ -1,0 +1,5 @@
+start.spring.io ----> select dependencies -> web dependencies -> generate
+
+// it will download spring boot project for us
+
+we can import it
