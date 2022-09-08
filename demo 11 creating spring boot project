@@ -1,5 +1,20 @@
-start.spring.io ----> select dependencies -> web dependencies -> generate
+https://start.spring.io/
 
-// it will download spring boot project for us
+dependencies 
+web
 
-we can import it
+artifactId 
+
+select java 8 
+
+download
+
+--------
+open exclipse
+import 
+general 
+project from folder or archive
+archive
+select the downloaded folder 
+check only maven project
+finish
