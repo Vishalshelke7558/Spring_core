@@ -1,0 +1,20 @@
+#spring.h2.console.enabled=true
+#spring.datasource.url=jdbc:h2:mem:testdb
+
+
+spring.datasource.url=jdbc:mysql://localhost:3306/testdb
+spring.datasource.username=root
+spring.datasource.password=Vishal@123
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+
+# create table when application is launch and delete all table when application is stop
+#spring.jpa.hibernate.ddl-auto=create-drop
+
+#it create table everytime when we launch the application
+#spring.jpa.hibernate.ddl-auto=create
+
+
+#it not create the table and not change it
+#we not going to lost data here
+spring.jpa.hibernate.ddl-auto=validate
+
